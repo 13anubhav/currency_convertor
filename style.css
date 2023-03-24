@@ -1,0 +1,119 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    /* text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px; */
+    margin-top: 0;
+    text-align: center;
+    padding: 20px;
+    background-color: #fbea8e;  
+    /* background-color: #4CAF50;  */
+    color: rgb(3, 0, 0);
+    text-shadow: 1px 1px 1px #333;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="text"], select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    color: #555;
+    font-family: Arial, sans-serif;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+button:hover {
+    background-color: #3e8e41;
+}
+.result {
+    /* margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+     */
+
+     margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    /* background-color: #e7f3f0;  */
+    background-color: #fbea8e;  
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0px 2px 5px rgba(12, 234, 204, 0.745); */
+    position: relative;
+    z-index: 0;
+    text-align: center;
+}
+.swap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.swap button {
+    background-color: #555;
+    margin-left: 10px;
+}
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+    input[type="text"], select {
+        padding: 5px;
+        font-size: 14px;
+    }
+    button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    .result {
+        font-size: 20px;
+    }
+    .swap button {
+        margin-left: 5px;
+    }
+}
+
+
+#h1{
+    margin-top: 0;
+text-align: center;
+padding: 20px;
+background-color: #4CAF50;
+color: white;
+text-shadow: 1px 1px 1px #333;
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
